@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  github,
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +43,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Python",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Backend",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Frontend",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Data Science",
     icon: creator,
   },
 ];
@@ -175,59 +176,60 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Boss, you taught me how to tackle every problem I face when coding with positivity.",
+    name: "Iyakod Godlove",
+    designation: "Software Developer",
+    company: "Tech-Republic Cameroon",
+    image: carrent,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I've never met a web developer who truly cares about their clients' success like stephen does.",
+    name: "Glenn Fritz",
+    designation: "Software Developer",
+    company: "Tech-Republic Cameroon",
+    image: github,
   },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "FindMe",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developed a full-stack application using React.js, Django, and FastAPI to connect service providers with clients via real-time messaging, secure authentication, and CI/CD deployment.",
     tags: [
       {
-        name: "react",
+        name: "react.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Django",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "HTML-CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SQL",
+        color: "blue-text-gradient",
+      },
     ],
     image: carrent,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Movie App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Built a dynamic movie app using React.js that leverages API calls to fetch, filter, and display movie data in an interactive, responsive interface.",
     tags: [
       {
-        name: "react",
+        name: "react.js",
         color: "blue-text-gradient",
       },
       {
@@ -235,29 +237,46 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwindcss, HTM, CSS",
         color: "pink-text-gradient",
       },
+      {
+        name: "API",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "CI/CD",
+        color: "green-text-gradient",
+      },
+
     ],
     image: jobit,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "E-commerce API",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed an e-commerce API using FastAPI that implements JWT authentication and authorization, with endpoints rigorously tested via Postman.",
     tags: [
       {
-        name: "nextjs",
+        name: "FastApi",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "JWT token",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "SQLALCHEMY",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Pydantic",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Postman",
+        color: "green-text-gradient",
       },
     ],
     image: tripguide,
