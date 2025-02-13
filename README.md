@@ -147,6 +147,7 @@ import {
   meta,
   starbucks,
   tesla,
+  python,
   shopify,
   carrent,
   jobit,
@@ -202,8 +203,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Python",
+    icon: python,
   },
   {
     name: "React JS",
@@ -245,7 +246,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
+    title: "Founder and Lead Developer",
     company_name: "Starbucks",
     icon: starbucks,
     iconBg: "#383E56",
